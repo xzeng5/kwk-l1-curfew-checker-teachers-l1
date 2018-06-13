@@ -18,6 +18,8 @@ def complex_curfew_checker(time)
     "You're in trouble! Better get home quick!"
   elsif time = 11
     "Time to apparate!"
+  else
+    "Keep having fun!"
   end
 end
 
