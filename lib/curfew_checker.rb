@@ -25,6 +25,9 @@ end
 
 def deluxe_curfew_checker(time)
   "Time to apparate!"
+  if time > 11
+    "You're in trouble! Better get home quick!"
+  end
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
