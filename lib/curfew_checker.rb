@@ -36,6 +36,6 @@ end
 
 def platinum_curfew_checker(current_time, curfew_time)
   if curfew_time == 11
-    "You're in trouble! Better get home quick!"
+    "Time to apparate!"
   end
 end
